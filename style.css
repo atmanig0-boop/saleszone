@@ -1,0 +1,34 @@
+* {
+ margin:0;
+  padding: 0;
+  box-sizing:border-box;
+} 
+header {
+ background:#222;
+  color:white;
+  padding: 15px;
+    
+    justify-content: space-between;
+    align-items:center;
+}
+nav a {
+ color:white;
+  margin-left: 20px;
+    text-decoration:none;
+}
+nav a:hover {
+ text-decoration:underline;
+  color:blue;
+}
+.content {
+ padding: 40px 20px;
+    margin:auto;
+
+}
+button {
+  background:#ff6600;
+  padding:10px 20px;
+    border-radius:2px;
+    color:white;
+    cursor:pointer;
+}
