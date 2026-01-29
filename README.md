@@ -21,5 +21,10 @@ It is shop of malya , it helps customer to buy and sales and no need for custome
 
  -it has 4 pages (Home,About us, contact , product , cart pages)
  -body is classified into 3 section and 
- 
-
+  ## Technologies tools used 
+  - React-: javascript bulid using user interface
+   - git(for version control and Ai detection for what is change )
+   - Responsive for mobile
+   - pages (<main>, <section>,<div> , <nav>, <a>,<article>, ...)
+## Screenshots pages 
+   

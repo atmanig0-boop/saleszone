@@ -24,6 +24,126 @@
           </div>
         </div>
       </nav> 
-       
+    <main>
+      <section class="page-hero">
+        <div class="container">
+            <h1>Your Shopping Cart</h1>
+            <p>Review your items and proceed to checkout</p>
+        </div>
+      </section>
+      <section class="cart-content">
+         <div class="container">
+          <div class="cart-grid">
+            <div class="cart-items">
+              <h2>Cart items ( <span id="cart-items-count">0</span> )</h2>
+              <div class="cart-table">
+                <div class="cart-header">
+                   <div class="header-product">Product</div>
+                  <div class="header-price">Price</div>
+                  <div class="header-quantity">Quantity</div>
+                  <div class="header-total">Total</div>
+                  <div class="header-Actions">Actions</div>
+                  <div class="header-marked">Marked</div>
+                </div>
+                <div class="cart-body" id="cart-items-container">
+                    <div class="cart-empty">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h3>Your cart is empty</h3>
+                    <p>Add some products to see them here...</p>
+                    <a href="product.html" class="btn">Continue Shopping</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cart-summary">
+              <h2>Order summary</h2>
+              <div class="summary-details">
+                <div class="summary-row">
+                  <span>Subtotal:</span>
+                  <span id="subtotal">$0.00</span>
+                </div>
+                <div class="summary-row">
+                  <span>Shipping</span>
+                  <span id="Shipping">$0.00</span>
+                </div>
+                <div class="summary-row">
+                  <span>Tax</span>
+                  <span class="tax">$0.00</span>
+                </div>
+                <div class="summary">
+                  <span>Total</span>
+                  <span id="total">$0.00</span>
+                </div>
+              </div>
+              <div class="delivery-options">
+                <h3>Delivery Options</h3>
+                <div class="delivery-option">
+                  <input type="radio" name="delivery" id="standard-delivery" checked>
+                  <label for="standard-delivery">
+                    <span class="option-title">Express Delivery</span>
+                    <span class="option-desc">1-2 Buisness day</span>
+                    <span class="option-price">50 ETB</span>
+                  </label>
+                </div>
+              </div>
+              <div class="payment-options">
+                <h3>Payment Method</h3>
+                <div class="payment-option">
+                    <input type="radio" id="telebirr" name="payment" checked>
+                    <label for="telebirr">
+                     <a href="https://www.telebirr.com/" target="_blank" class="teleb                     irr-link"> <i class="fas fa-mobile-alt"></i>
+                       </a> 
+                   <span>Telebirr</span>
+                  </label>
+                </div>
+                <div class="payment-option">
+                  <input type="radio" name="payment" id="cash-on-delivery" checked>
+                  <label for="cash-on-delivery">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <span>Cash on delivery</span>
+                  </label>
+                </div>
+              </div>
+              <button class="btn checkout-btn" id="checkout-btn">Procced to check the nesaccity</button>
+             <div class="telebirr-note" id="telebirr-note">
+             <p>You will be redirected to Telebirr payment gateway to complete your payment securely.</p> 
+                           </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>   
+    <!--footer-->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>ShopEasy</h3>
+                    <p>Your one-stop online shopping destination. We offer quality products with secure payment options.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Products</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                <div class="footer-col">
+                    <h3>Payment Methods</h3>
+                    <div class="payment-methods">
+                        <i class="fas fa-credit-card"></i>
+                        <i class="fas fa-mobile-alt"></i>
+                        <span class="telebirr-logo">Telebirr</span>
+                    </div>
+                    <p>We accept Telebirr and other secure payment methods</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 ShopEasy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>
