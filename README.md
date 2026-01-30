@@ -7,7 +7,6 @@ It is shop of malya , it helps customer to buy and sales and no need for custome
    ## TABLE CONTENT
        - Features
        - Technologies tools used
-       - Screenshots pages
        - Contact 
 
   ## Features
@@ -26,5 +25,7 @@ It is shop of malya , it helps customer to buy and sales and no need for custome
    - git(for version control and Ai detection for what is change )
    - Responsive for mobile
    - pages (<main>, <section>,<div> , <nav>, <a>,<article>, ...)
-## Screenshots pages 
+## contact 
+ - form is clear it can be saved on the server and also adding some employees teamed and location is statused 
+ adding some api for the product and leaving product.javascript
    
