@@ -7,7 +7,8 @@ It is shop of malya , it helps customer to buy and sales and no need for custome
    ## TABLE CONTENT
        - Features
        - Technologies tools used
-       - Contact 
+       - Contact
+       - Trouble in Code
 
   ## Features
   React- building for front-end interface
@@ -25,7 +26,17 @@ It is shop of malya , it helps customer to buy and sales and no need for custome
    - git(for version control and Ai detection for what is change )
    - Responsive for mobile
    - pages (<main>, <section>,<div> , <nav>, <a>,<article>, ...)
+   - webpj :- index.html , contact.html , about.html , product.html, cart.html , style.css , and product.js 
+    .
+## screenshoot 
+- index.html
+ /home/aman/saleszone/index.html
 ## contact 
  - form is clear it can be saved on the server and also adding some employees teamed and location is statused 
  adding some api for the product and leaving product.javascript
+## Trouble on the code 
+-well a lot , in the js of the button for search , so i have to get it from deepseek
+and API set
+-product.js :- every code is problem for me specially the API process it was tired
+-well there was script.js and imgages but i have some trouble on that so i just live it
    
