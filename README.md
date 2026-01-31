@@ -39,4 +39,5 @@ It is shop of malya , it helps customer to buy and sales and no need for custome
 and API set
 -product.js :- every code is problem for me specially the API process it was tired
 -well there was script.js and imgages but i have some trouble on that so i just live it
+-when checking the how much product is sold i need cart.js so i have much trouble getting or connecting the cart.js to the product which all products comes from the API so i just took the chatgpt.
    
