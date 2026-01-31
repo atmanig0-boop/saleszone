@@ -9,7 +9,26 @@ let filteredProducts = [];
 function debug(message) {
     console.log(`[DEBUG] ${message}`);
 }
+function addToCart(product) {
 
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+    const existingProduct = cart.find(item => item.id === product.id);
+
+    if (existingProduct) {
+        existingProduct.quantity += 1;
+    } else {
+        cart.push({
+            id: product.id,
+            title: product.title,
+            price: product.price,
+            image: product.image,
+            quantity: 1
+        });
+    }
+
+    localStorage.setItem("cart", JSON.stringify(cart));
+    debug(`Product added to local server (cart.html): ${product.title}`);
+}
 async function loadProducts() {
     try {
         debug('Starting to load products...');
